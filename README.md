@@ -62,3 +62,36 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Online Book Store
+
+Step 1 : clone project
+Step 2 : composer install
+Step 3 : cp .env.example .env
+Step 4 : php artisan key:generate
+Step 5 : migrate tables
+Step 6 : import SQL file
+
+## User Authentication:
+
+I have implemented the user authentication and authorization.
+Users can be able to register, log in, and log out.
+I have implemented the middleware for admin and user login.
+
+## Admin Login
+
+ID - madhu@gmail.com
+password - 12345678
+Admin can be add, view,delete, update books, as well as see what books are being purchased by customers/users and which books are in demand.
+
+## User login
+
+You can register user and then login
+or you can use below user login credential- 
+ID - akshay@gmail.com
+password - 12345678
+
+After user login they will go the dashboard page and Users can be able to add books to a shopping cart.
+And also view and manage items in the cart.
+Recommendation of book books based on the user's purchase history display on the user's dashboard page.
+In the books listing page I have implement a feature for users to leave reviews and ratings for books.
